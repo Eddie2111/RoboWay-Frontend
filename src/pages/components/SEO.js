@@ -21,7 +21,7 @@ export default function SEO({ title, description, image }) {
         <meta name="theme-color" content="#000000" />
         <meta property="og:title" content="RoboWayTech" />
         <meta property="og:type" content="Safety Tech" />
-        <meta property="og:image" content="/logo1.png" />
+        <meta property="og:image" content="/metaCover.png" />
         <meta property="og:url" content="http://robowaytech-frontend.vercel.app" />
         <meta name="twitter:card" content="RoboWayTech" />
         <meta property="og:site_name" content="RoboWayTech, com." />
