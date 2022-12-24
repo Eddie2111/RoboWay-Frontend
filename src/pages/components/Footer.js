@@ -1,5 +1,5 @@
 import { Icon } from "@chakra-ui/react";
-import {BsFacebook, BsTwitter, BsInstagram, BsLinkedin, BsGithub, BsGoogle} from "react-icons/bs";
+import {BsFacebook, BsTwitter, BsInstagram, BsLinkedin, BsGoogle} from "react-icons/bs";
 
 const Footer = ()=>{
     const backedUp = {backgroundColor:"rgba(0, 0, 0, 0.05)"};
@@ -26,19 +26,19 @@ const Footer = ()=>{
 
           <div>
             <a href="/" class="text-white me-4">
-            <Icon as={BsFacebook} w={8} h={8} color='#491A89'/>
+            <Icon as={BsFacebook} w={8} h={8} color='#fafafa'/>
             </a>
             <a href="/" class="text-white me-4">
-            <Icon as={BsTwitter} w={8} h={8} color='#491A89'/>
+            <Icon as={BsTwitter} w={8} h={8} color='#fafafa'/>
             </a>
             <a href="/" class="text-white me-4">
-            <Icon as={BsGoogle} w={8} h={8} color='#491A89'/>
+            <Icon as={BsGoogle} w={8} h={8} color='#fafafa'/>
             </a>
             <a href="/" class="text-white me-4">
-            <Icon as={BsInstagram} w={8} h={8} color='#491A89'/>
+            <Icon as={BsInstagram} w={8} h={8} color='#fafafa'/>
             </a>
             <a href="/" class="text-white me-4">
-            <Icon as={BsLinkedin} w={8} h={8} color='#491A89'/>
+            <Icon as={BsLinkedin} w={8} h={8} color='#fafafa'/>
             </a>
             <a href="/" class="text-white me-4">
               <i class="fab fa-github"></i>
@@ -62,9 +62,7 @@ const Footer = ()=>{
                     style={fiveBackedUp}
                     />
                 <p>
-                  Here you can use rows and columns to organize your footer
-                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
+                  Our work is to create safety and automation through robotics. If you have any concern, feel free to contact us.
                 </p>
               </div>
 
@@ -78,16 +76,16 @@ const Footer = ()=>{
                     style={fourBackedUp}
                     />
                 <p>
-                  <a href="#!" class="text-white">MDBootstrap</a>
+                  <a href="#!" class="text-white">Home Safety</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-white">MDWordPress</a>
+                  <a href="#!" class="text-white">Fire Safety</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-white">BrandFlow</a>
+                  <a href="#!" class="text-white">Vehicle Safety</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-white">Bootstrap Angular</a>
+                  <a href="#!" class="text-white">Custom Service</a>
                 </p>
               </div>
 
@@ -123,8 +121,8 @@ const Footer = ()=>{
                     class="mb-4 mt-0 d-inline-block mx-auto"
                     style={twoBackedUp}
                     />
-                <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                <p><i class="fas fa-home mr-3"></i> Mohakhali, Dhaka-1212</p>
+                <p><i class="fas fa-envelope mr-3"></i> Roboway@Tech.com</p>
                 <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
                 <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
               </div>
@@ -135,8 +133,7 @@ const Footer = ()=>{
              class="text-center p-3"
              style={backedUp}
              >
-          © 2020 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          © 2022 Copyright: Roboway Technologies
         </div>
     
       </footer>

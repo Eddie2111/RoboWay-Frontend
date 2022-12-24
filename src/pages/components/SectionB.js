@@ -1,10 +1,11 @@
 import { Card, CardBody, CardFooter, Heading,
     CardHeader, Text, SimpleGrid, GridItem
 } from '@chakra-ui/react';
-import {motion} from 'framer-motion';
+//import { motion } from 'framer-motion';
+import { motion } from "framer-motion-3d";
 import StatsCard from './statsCard';
-import {FaProjectDiagram} from 'react-icons/fa';
-import { MdConstruction,MdOutlineConnectWithoutContact } from 'react-icons/md';
+import { FaProjectDiagram } from 'react-icons/fa';
+import { MdConstruction, MdOutlineConnectWithoutContact } from 'react-icons/md';
 import { TiTickOutline } from 'react-icons/ti';
 import { BiHappyBeaming } from 'react-icons/bi';
 import { IoMdContacts } from 'react-icons/io';
@@ -28,11 +29,7 @@ const SectionB = ()=>{
     whileInView={{ opacity: 1, scale: 1, y: 0 }}
     transition={{ duration: 0.8 }}
   >
-    <motion.div
-    initial={{ opacity: 0, scale: 0.5 }}
-    whileInView={{ opacity: 1, scale: 1 }}
-    transition={{ duration: 0.5 }}
-  >
+
 <Card align='center'>
   <CardHeader>
   <Heading size="lg">Current Statistics of Roboway</Heading>
@@ -45,6 +42,14 @@ const SectionB = ()=>{
   </CardFooter>
 </Card>
 </motion.div>
+
+
+<motion.div
+    initial={{ opacity: 0, scale: 0.5, y: -100 }}
+    whileInView={{ opacity: 1, scale: 1, y: 0 }}
+    transition={{ duration: 0.8 }}
+  >
+
 <SimpleGrid columns={[2, null, 6]} spacingY='200px' paddingBottom={"190px"}>
 
   <GridItem w='100%' h='10'>
@@ -96,7 +101,9 @@ const SectionB = ()=>{
   </GridItem>
 
 </SimpleGrid>
+
 </motion.div>
+
 </div>
 
 

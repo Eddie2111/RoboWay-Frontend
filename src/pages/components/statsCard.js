@@ -1,4 +1,4 @@
-import { Text, Icon, Box, Divider } from '@chakra-ui/react';
+import { Text, Icon, Box } from '@chakra-ui/react';
 
 const StatsCard = ({icon, value, title})=>{
     return (
