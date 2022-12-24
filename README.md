@@ -1,8 +1,6 @@
 creating a way through robotics
 
--home ektu daan e shift hobe
-- logo aro boro hobe
-- image carousel with sliding
+
 - what we do
 
 - background image
