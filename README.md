@@ -8,11 +8,8 @@ creating a way through robotics
 - products on board b2c,b2g
 
 - done proj
-
-
-
 - successful founder projects
 - customer reviews
 - signup for newsletter
- -   get ready for revolution
+- get ready for revolution
 - footer

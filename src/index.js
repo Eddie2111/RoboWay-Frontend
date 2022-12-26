@@ -10,6 +10,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
     import Blogs from './pages/Blogs';
     import Contact from './pages/Contact';
     import Signup from './pages/Signup';
+    import Product from './pages/Product';
     import Products from './pages/Products';
 
 // Style Imports
@@ -30,6 +31,7 @@ root.render(
             <Route path="/Signup" element={<Signup />}/> 
             <Route path="/Blogs" element={<Blogs />}/>  
             <Route path="/Contact" element={<Contact />}/> 
+            <Route path="/Product" element={<Product />}/> 
             <Route path="/Products" element={<Products />}/> 
         </Routes>
         </BrowserRouter>

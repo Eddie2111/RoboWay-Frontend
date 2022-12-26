@@ -33,7 +33,7 @@ export default function Navbar() {
             display={{ md: 'none' }}
             onClick={isOpen ? onClose : onOpen}/>
           <HStack spacing={36} alignItems={'center'} style={{zIndex:1000}}>
-            <Box style={{zIndex:1000}}><img src="./logo1.png" alt="Logo" style={{marginLeft:"-10px"}} width="160px" height="120px"/></Box>
+            <Box style={{zIndex:1000}}><img src="/logo1.png" alt="Logo" style={{marginLeft:"-10px"}} width="160px" height="120px"/></Box>
             <HStack
               as={'nav'}
               spacing={5}
@@ -46,15 +46,15 @@ export default function Navbar() {
                 <a href="/about"> <NavLink key="/about">About</NavLink></a>
                 <div class="dropdown">
                 <span><Grid templateColumns='repeat(2, 0fr)' gap={0}>
-  <GridItem>Products</GridItem>
-  <GridItem><ChevronDownIcon/></GridItem>
-</Grid></span>
+                <GridItem><a href="/products">Products</a></GridItem>
+                <GridItem><ChevronDownIcon/></GridItem>
+                </Grid></span>
                 <div class="dropdown-content">
                     <motion.div >
                     <ul>
-                <li className="productLinks"><a href="/product1" align={"center"}>SafeMet 1.0</a><br/></li>
-                <li className="productLinks"><a href="/product2">Shield 52</a><br/></li>
-                <li className="productLinks"><a href="/product3">Shield 71</a><br/></li>
+                <li className="productLinks"><a href="/product?id=safemate" align={"center"}>SafeMet 1.0</a><br/></li>
+                <li className="productLinks"><a href="/product?id=shield52">Shield 52</a><br/></li>
+                <li className="productLinks"><a href="/product?id=shield71">Shield 71</a><br/></li>
                     </ul>
                     </motion.div>
                 </div>

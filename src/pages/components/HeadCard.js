@@ -6,7 +6,7 @@ import { Stack, Heading, Text,
 
 const HeadCard = ({heading, description, icon})=>{
     return (
-<div  className="cardHeading" >
+<div className="cardHeading">
 <div align={"center"}>
     <Icon as={icon} w={16} h={16} color='#491A89'/>
     <Stack mt='6' spacing='3' align={"center"}>

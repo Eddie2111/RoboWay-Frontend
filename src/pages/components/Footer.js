@@ -9,39 +9,39 @@ const Footer = ()=>{
     const fiveBackedUp = {width: "60px", backgroundColor: "#7c4dff", height: "2px"};
  return(
       <footer
-              class="text-center text-lg-start text-white"
+              className="text-center text-lg-start text-white"
               style={{backgroundColor: "#1c2331",marginTop:"20px"}}
               >
 
         <section
-                 class="d-flex justify-content-between p-4"
+                 className="d-flex justify-content-between p-4"
                  style={{backgroundColor: "#6351ce"}}
                  >
 
-          <div class="me-5">
+          <div className="me-5">
             <span>Get connected with us on social networks:</span>
           </div>
 
     
 
           <div>
-            <a href="/" class="text-white me-4">
+            <a href="/" className="text-white me-4">
             <Icon as={BsFacebook} w={8} h={8} color='#fafafa'/>
             </a>
-            <a href="/" class="text-white me-4">
+            <a href="/" className="text-white me-4">
             <Icon as={BsTwitter} w={8} h={8} color='#fafafa'/>
             </a>
-            <a href="/" class="text-white me-4">
+            <a href="/" className="text-white me-4">
             <Icon as={BsGoogle} w={8} h={8} color='#fafafa'/>
             </a>
-            <a href="/" class="text-white me-4">
+            <a href="/" className="text-white me-4">
             <Icon as={BsInstagram} w={8} h={8} color='#fafafa'/>
             </a>
-            <a href="/" class="text-white me-4">
+            <a href="/" className="text-white me-4">
             <Icon as={BsLinkedin} w={8} h={8} color='#fafafa'/>
             </a>
-            <a href="/" class="text-white me-4">
-              <i class="fab fa-github"></i>
+            <a href="/" className="text-white me-4">
+              <i className="fab fa-github"></i>
             </a>
           </div>
 
@@ -49,16 +49,16 @@ const Footer = ()=>{
 
     
 
-        <section class="">
-          <div class="container text-center text-md-start mt-5">
+        <section className="">
+          <div className="container text-center text-md-start mt-5">
 
-            <div class="row mt-3">
+            <div className="row mt-3">
 
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
-                <h6 class="text-uppercase fw-bold">Roboway Technologies</h6>
+                <h6 className="text-uppercase fw-bold">Roboway Technologies</h6>
                 <hr
-                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    className="mb-4 mt-0 d-inline-block mx-auto"
                     style={fiveBackedUp}
                     />
                 <p>
@@ -68,69 +68,69 @@ const Footer = ()=>{
 
     
 
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
-                <h6 class="text-uppercase fw-bold">Products</h6>
+                <h6 className="text-uppercase fw-bold">Products</h6>
                 <hr
-                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    className="mb-4 mt-0 d-inline-block mx-auto"
                     style={fourBackedUp}
                     />
                 <p>
-                  <a href="#!" class="text-white">Home Safety</a>
+                  <a href="#!" className="text-white">Home Safety</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-white">Fire Safety</a>
+                  <a href="#!" className="text-white">Fire Safety</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-white">Vehicle Safety</a>
+                  <a href="#!" className="text-white">Vehicle Safety</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-white">Custom Service</a>
+                  <a href="#!" className="text-white">Custom Service</a>
                 </p>
               </div>
 
     
 
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
-                <h6 class="text-uppercase fw-bold">Useful links</h6>
+                <h6 className="text-uppercase fw-bold">Useful links</h6>
                 <hr
-                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    className="mb-4 mt-0 d-inline-block mx-auto"
                     style={threeBackedUp}
                     />
                 <p>
-                  <a href="#!" class="text-white">Your Account</a>
+                  <a href="#!" className="text-white">Your Account</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-white">Become an Affiliate</a>
+                  <a href="#!" className="text-white">Become an Affiliate</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-white">Shipping Rates</a>
+                  <a href="#!" className="text-white">Shipping Rates</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-white">Help</a>
+                  <a href="#!" className="text-white">Help</a>
                 </p>
               </div>
 
     
 
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
-                <h6 class="text-uppercase fw-bold">Contact</h6>
+                <h6 className="text-uppercase fw-bold">Contact</h6>
                 <hr
-                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    className="mb-4 mt-0 d-inline-block mx-auto"
                     style={twoBackedUp}
                     />
-                <p><i class="fas fa-home mr-3"></i> Mohakhali, Dhaka-1212</p>
-                <p><i class="fas fa-envelope mr-3"></i> Roboway@Tech.com</p>
-                <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                <p><i className="fas fa-home mr-3"></i> Mohakhali, Dhaka-1212</p>
+                <p><i className="fas fa-envelope mr-3"></i> Roboway@Tech.com</p>
+                <p><i className="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                <p><i className="fas fa-print mr-3"></i> + 01 234 567 89</p>
               </div>
             </div>
           </div>
         </section>
         <div
-             class="text-center p-3"
+             className="text-center p-3"
              style={backedUp}
              >
           © 2022 Copyright: Roboway Technologies
