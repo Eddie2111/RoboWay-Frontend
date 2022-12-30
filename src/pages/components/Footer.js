@@ -15,7 +15,7 @@ const Footer = ()=>{
 
         <section
                  className="d-flex justify-content-between p-4"
-                 style={{backgroundColor: "#6351ce"}}
+                 style={{backgroundColor: "#4A0390"}}
                  >
 
           <div className="me-5">
@@ -133,7 +133,7 @@ const Footer = ()=>{
              className="text-center p-3"
              style={backedUp}
              >
-          © 2022 Copyright: Roboway Technologies
+          <a href="/"> <img src="Assets/footer.png" alt="footer logo"/></a>
         </div>
     
       </footer>

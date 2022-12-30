@@ -12,6 +12,8 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
     import Signup from './pages/Signup';
     import Product from './pages/Product';
     import Products from './pages/Products';
+    import Profile from './pages/Profile';
+    import Profiles from './pages/Profiles';
 
 // Style Imports
 import './pages/App.css';
@@ -33,6 +35,8 @@ root.render(
             <Route path="/Contact" element={<Contact />}/> 
             <Route path="/Product" element={<Product />}/> 
             <Route path="/Products" element={<Products />}/> 
+            <Route path="/Profile" element={<Profile />}/>
+            <Route path="/Profiles" element={<Profile />}/>
         </Routes>
         </BrowserRouter>
     </ChakraProvider>

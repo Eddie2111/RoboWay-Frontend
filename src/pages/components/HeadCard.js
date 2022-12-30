@@ -12,7 +12,7 @@ const HeadCard = ({heading, description, icon})=>{
     <Stack mt='6' spacing='3' align={"center"}>
     <Heading size='md'>{heading}</Heading>
     <Divider />
-    <Text>
+    <Text fontSize={"lg"}>
         {description}
     </Text>
     </Stack>

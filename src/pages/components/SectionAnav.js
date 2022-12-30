@@ -1,4 +1,4 @@
-import { Card, CardBody, CardFooter, Heading,
+import { Card, CardBody, CardFooter, Heading,Box,
          CardHeader, Text, SimpleGrid, GridItem
     } from '@chakra-ui/react';
 import {motion} from 'framer-motion';
@@ -21,14 +21,38 @@ const SectionAnav = ()=>{
     <Heading size='lg'> What We Do</Heading>
   </CardHeader>
   <CardBody>
-    <Text>Our primary concern is to find a solution using Robotics and Automation.</Text>
+    <Text fontSize={"lg"}>Our primary concern is to find a solution using Robotics and Automation.</Text>
   </CardBody>
+  <br/><br/>
   <CardFooter>
-    
+        <SimpleGrid columns={[1, null, 3]} spacing='120px'>
+        <Box height='60px'>
+            <Heading size='md'>Provide Personal and Industrial Safety Solutions.</Heading>
+        </Box>
+        <Box height='60px'>
+            <Heading size='md'>Provide Academics and Corporate Automation.</Heading>
+        </Box>
+        <Box height='60px'>
+            <Heading size='md'>Professional Software and Hardware Based Projects.</Heading>
+        </Box>
+        </SimpleGrid>
   </CardFooter>
+  <br/><br/>
+  <Text><a class="btn btn-primary button1" width={"24rem"} href="/contact"> Contact us </a></Text>
+  <br/>
 </Card>
 </motion.div>
 
+<Card align='center'>
+  <CardHeader>
+    <Heading size='lg'> How we work</Heading>
+  </CardHeader>
+  <CardBody>
+    <Text fontSize={"lg"}>Our work strategy is agile and we work in a three step process.</Text>
+  </CardBody>
+  <br/><br/>
+  <CardFooter></CardFooter>
+  </Card>
 
 <SimpleGrid columns={[1, null, 3]} spacingY='200px' paddingBottom={"300px"}>
 <motion.div

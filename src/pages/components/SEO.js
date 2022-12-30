@@ -3,7 +3,7 @@ export default function SEO({ title }) {
     return (
         <Helmet>
         <title>Roboway || {title}</title>
-        <meta name="description" content="RoboWayTech brings safety using IOT and AI" />
+        <meta name="description" content="Roboway Technologies brings safety using IOT and AI" />
         <meta name="keywords" content="Community, Technology, Safety Device, Robotics, BD, Bike Device, Security" />
         <meta name="author" content="Roboway Technologies" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

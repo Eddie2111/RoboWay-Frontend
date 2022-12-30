@@ -12,6 +12,7 @@ import { Autoplay } from 'swiper';
 import SectionAnav from './components/SectionAnav';
 import SectionBnav from './components/SectionBnav';
 import SectionCnav from './components/SectionCnav';
+import SectionDnav from './components/SectionDnav';
 import Footer   from './components/Footer' ;
 
 function Index() {
@@ -36,6 +37,8 @@ function Index() {
     <SectionBnav/>
 
     <SectionCnav/>
+
+    <SectionDnav/>
 
     <Footer/>
     </>
