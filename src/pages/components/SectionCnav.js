@@ -11,22 +11,26 @@ const sectionCnav = () => {
         sihabShahriar: {
             name: "Sihab Shahriar",
             image: "https://res.cloudinary.com/homeeventtest/image/upload/v1672268853/Profiles/sihab_bhai_q4ifyx.png",
-            designation:"Chief Technical Officer"
+            designation:"Chief Technical Officer",
+            links: "5fbc5333-0143-4cb6-a231-fff929ec2627"
         },
         arifinRafi: {
             name: "Arifin Rafi",
             image:"https://res.cloudinary.com/homeeventtest/image/upload/v1672268852/Profiles/rafi_bhai_mvkk8g.png",
-            designation:"Chief Executive Officer"
+            designation:"Chief Executive Officer",
+            links: "c76771c6-2162-4844-a643-f5c63175b5e4"
         },
         asmTareq: {
             name: "Tareq Mahmood",
             image:"https://res.cloudinary.com/homeeventtest/image/upload/v1672268852/Profiles/tareq_bhai_pubg0y.png",
-            designation:"Chief Information Officer"
+            designation:"Chief Information Officer",
+            links: "66d09463-db28-4a26-b492-8f436dea37e9"
         },
         soumikShranto:{
             name: "Soumik Shranto",
             image:"https://res.cloudinary.com/homeeventtest/image/upload/v1672268860/Profiles/Shrantoo_zbfbnj.png",
-            designation:"Chief Strategy Officer"
+            designation:"Chief Strategy Officer",
+            links: "61ea4743-57e3-4047-9416-dded311ec471"
         }
     }
     return (
@@ -62,6 +66,7 @@ const sectionCnav = () => {
                         name={founders.sihabShahriar.name}
                         designation={founders.sihabShahriar.designation}
                         altText= {founders.sihabShahriar.name}
+                        links = {founders.sihabShahriar.links}
                     />
                 </motion.div>
                 </GridItem>
@@ -75,6 +80,7 @@ const sectionCnav = () => {
                         name={founders.arifinRafi.name}
                         designation={founders.arifinRafi.designation}
                         altText = {founders.arifinRafi.name}
+                        links = {founders.arifinRafi.links}
                     />
                 </motion.div>
                 </GridItem>
@@ -88,6 +94,7 @@ const sectionCnav = () => {
                         name={founders.asmTareq.name}
                         designation={founders.asmTareq.designation}
                         altText = {founders.asmTareq.name}
+                        links = {founders.asmTareq.links}
                     />
                 </motion.div>
                 </GridItem>
@@ -101,6 +108,7 @@ const sectionCnav = () => {
                         name={founders.soumikShranto.name}
                         designation={founders.soumikShranto.designation}
                         altText = {founders.soumikShranto.name}
+                        links = {founders.soumikShranto.links}
                     />
                 </motion.div>
                 </GridItem>

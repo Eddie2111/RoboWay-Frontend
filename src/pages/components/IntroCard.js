@@ -1,7 +1,8 @@
 import { Card, CardBody, Heading, Image, Stack, Text, Divider } from '@chakra-ui/react'
 import React from 'react'
 
-export const IntroCard = ({image, name, designation, altText})=>{
+export const IntroCard = ({image, name, designation, altText, links})=>{
+    const link = "profile/?id="+links;
     return(
     <Card maxW='sm' h="400" className="card">
     <CardBody>
@@ -15,7 +16,7 @@ export const IntroCard = ({image, name, designation, altText})=>{
         <Heading size='md'>{name}</Heading>
         <Text> {designation} </Text>
         <Divider/>
-        <a className="button1 btn btn-primary" href="profile/?id=5fbc5333-0143-4cb6-a231-fff929ec2627">Check Profile</a>
+        <a className="button1 btn btn-primary" href={link}>Check Profile</a>
         </Stack>
     </CardBody>
 
