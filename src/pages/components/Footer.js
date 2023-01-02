@@ -10,13 +10,11 @@ const Footer = ()=>{
  return(
       <footer
               className="text-center text-lg-start text-white"
-              style={{backgroundColor: "#1c2331",marginTop:"20px"}}
-              >
+              style={{backgroundColor: "#1c2331",marginTop:"20px"}}>
 
         <section
                  className="d-flex justify-content-between p-4"
-                 style={{backgroundColor: "#4A0390"}}
-                 >
+                 style={{backgroundColor: "#4A0390"}}>
 
           <div className="me-5">
             <span>Get connected with us on social networks:</span>
@@ -26,19 +24,19 @@ const Footer = ()=>{
 
           <div>
             <a href="/" className="text-white me-4">
-            <Icon as={BsFacebook} w={8} h={8} color='#fafafa'/>
+                <Icon as={BsFacebook} w={8} h={8} color='#fafafa'/>
             </a>
             <a href="/" className="text-white me-4">
-            <Icon as={BsTwitter} w={8} h={8} color='#fafafa'/>
+                <Icon as={BsTwitter} w={8} h={8} color='#fafafa'/>
             </a>
             <a href="/" className="text-white me-4">
-            <Icon as={BsGoogle} w={8} h={8} color='#fafafa'/>
+                <Icon as={BsGoogle} w={8} h={8} color='#fafafa'/>
             </a>
             <a href="/" className="text-white me-4">
-            <Icon as={BsInstagram} w={8} h={8} color='#fafafa'/>
+                <Icon as={BsInstagram} w={8} h={8} color='#fafafa'/>
             </a>
             <a href="/" className="text-white me-4">
-            <Icon as={BsLinkedin} w={8} h={8} color='#fafafa'/>
+                <Icon as={BsLinkedin} w={8} h={8} color='#fafafa'/>
             </a>
             <a href="/" className="text-white me-4">
               <i className="fab fa-github"></i>
@@ -133,7 +131,7 @@ const Footer = ()=>{
              className="text-center p-3"
              style={backedUp}
              >
-          <a href="/"> <img src="Assets/footer.png" alt="footer logo"/></a>
+          <a href="/"> <img src="Assets/footer.png" className="footerImage" alt="footer logo"/></a>
         </div>
     
       </footer>

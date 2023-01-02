@@ -8,6 +8,7 @@ import {GiSellCard} from 'react-icons/gi';
 import {GiArchiveResearch} from 'react-icons/gi';
 
 const SectionAnav = ()=>{
+    
     return (
 <>
 <div className="container">
@@ -27,22 +28,26 @@ const SectionAnav = ()=>{
   <CardFooter>
         <SimpleGrid columns={[1, null, 3]} spacing='120px'>
         <Box height='60px'>
-            <Heading size='md'>Provide Personal and Industrial Safety Solutions.</Heading>
+            <Heading size='md' textAlign={"center"} >Provide Personal and Industrial Safety Solutions.</Heading>
         </Box>
         <Box height='60px'>
-            <Heading size='md'>Provide Academics and Corporate Automation.</Heading>
+            <Heading size='md' textAlign={"center"}>Provide Academics and Corporate Automation.</Heading>
         </Box>
         <Box height='60px'>
-            <Heading size='md'>Professional Software and Hardware Based Projects.</Heading>
+            <Heading size='md' textAlign={"center"}>Professional Software and Hardware Based Projects.</Heading>
         </Box>
         </SimpleGrid>
   </CardFooter>
   <br/><br/>
-  <Text><a class="btn btn-primary button1" width={"24rem"} href="/contact"> Contact us </a></Text>
-  <br/>
+
+  <Text><a className="btn btn-primary button1" width={"24rem"} href="/contact">
+    <Text className="mainstreamText"> Have a project? Let's Discuss! </Text>
+    </a></Text>
+  
+  <br/><br/><br/>
 </Card>
 </motion.div>
-
+<br/><br/>
 <Card align='center'>
   <CardHeader>
     <Heading size='lg'> How we work</Heading>

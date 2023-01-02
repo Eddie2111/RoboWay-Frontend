@@ -25,7 +25,7 @@ function Index() {
     <SEO title={"Welcome"}/>
     <Navbar/>
     
-    <Swiper className='swiper' modules={[ Autoplay]} slidesPerView={1} navigation zIndex={-1101} autoplay={{ delay: 3000 }} pagination={{ clickable: false }}>
+    <Swiper className='swiper' modules={[ Autoplay]} slidesPerView={1} navigation zindex={-1101} autoplay={{ delay: 3000 }} pagination={{ clickable: false }}>
          <SwiperSlide><img className="img" src={metaCoverLink} alt="" /></SwiperSlide>
          <SwiperSlide><img className="img" src={img1Link} alt="" /></SwiperSlide>
          <SwiperSlide><img className="img" src={img2Link} alt="" /></SwiperSlide>

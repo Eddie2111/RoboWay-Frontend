@@ -1,6 +1,8 @@
 // React Imports
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Run } from './pages/components/backend/api';
+
 
 // App Imports
 import { Routes, Route, BrowserRouter } from "react-router-dom";
@@ -18,9 +20,10 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 // Style Imports
 import './pages/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { ChakraProvider } from '@chakra-ui/react'
+import { ChakraProvider } from '@chakra-ui/react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+Run();
 root.render(
 
     <ChakraProvider>

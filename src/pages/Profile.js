@@ -5,7 +5,7 @@ import SEO from './components/SEO';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { BsFacebook, BsGithub, BsLinkedin } from 'react-icons/bs';
-import { Box,Card,CardBody, HStack, Heading, Icon, Stack, Text } from "@chakra-ui/react"
+import { Box,Card,CardBody, Heading, Icon, Text } from "@chakra-ui/react"
 import { Backend } from './components/backend/api';
 function Profile() {
     const [searchParams] = useSearchParams();

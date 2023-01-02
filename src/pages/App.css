@@ -12,7 +12,16 @@
 .cardModAbout{
     width:53vw;
 }
+.mainstream{
 
+}
+.mainstreamText{
+    font-size: 22px;
+    padding:15px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
 .img{
     width:100vw;
 }
@@ -71,7 +80,7 @@
   }
   .swiper {
     width: 99vw;
-    height: 700px;
+    height: 90vh;
     z-index:1;
     margin-bottom: 15px;
   }
@@ -229,4 +238,7 @@
     background-color: #4dbbff !important;
     transition: 0.3 ease-in-out !important;
     border: none !important;
+}
+.footerImage{
+    width:100vw;
 }

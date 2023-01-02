@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Slider,Box, SliderTrack, SliderFilledTrack, Tooltip, SliderThumb } from '@chakra-ui/react';
 import axios from 'axios';
+import { Backend } from './components/backend/api';
 import './App.css';
 import Navbar from './components/Navbar';
 import SEO from './components/SEO';
@@ -51,7 +52,7 @@ function Contact() {
         customName: CustomName,
         pricingOptions: pricingOptions,
     }
-    await axios.post('http://localhost:3001/contact', dataset,{withCredentials: true, headers: {'Content-Type': 'application/json'} })
+    await axios.post(Backend+'contact', dataset,{withCredentials: true, headers: {'Content-Type': 'application/json'} })
     console.log(dataset);
     };
 

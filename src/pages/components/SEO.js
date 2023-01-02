@@ -20,7 +20,7 @@ export default function SEO({ title }) {
         <meta property="og:image" content="/metaCover.png" />
         <meta property="og:url" content="http://robowaytech-frontend.vercel.app" />
         <meta name="twitter:card" content="Roboway Technologies" />
-        <meta property="og:site_name" content="RoboWay Technologies, com." />
+        <meta property="og:site_name" content="Roboway Technologies, com." />
         <meta name="twitter:image:alt" content="Roboway Technologies" />
         </Helmet>
     );
