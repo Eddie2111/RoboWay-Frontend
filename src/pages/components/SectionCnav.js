@@ -4,8 +4,6 @@ import {
 import { IntroCard } from './IntroCard';
 import { motion } from 'framer-motion';
 
-
-
 const sectionCnav = () => {
     const founders = {
         sihabShahriar: {
@@ -39,10 +37,9 @@ const sectionCnav = () => {
             initial={{ opacity: 0, scale: 0.5, y: -100 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ duration: 0.8 }}>
-
             <Card align='center'>
             <CardHeader>
-            <Heading align={"center"} size="lg">Founders of Roboway</Heading>
+                <Heading align={"center"} size="lg">Meet The Team</Heading>
             </CardHeader>
             <CardBody>
                 <Text align={"center"}>With proper skill distribution, Roboway was founded by four members.</Text>

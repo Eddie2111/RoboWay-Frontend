@@ -35,7 +35,7 @@ function Profile() {
     <img src={dataset.dp} className="imgDP" alt="dp"/>
     <div className="container">
     
-  <div class="row row-cols-1 row-cols-md-4">
+  <div class="row row-cols-2 row-cols-md-4">
     <div class="col">
         <div class="card">
             <div class="card-body">
@@ -67,7 +67,7 @@ function Profile() {
                    </center>
                 </li>
                 <li class="list-group-item"><Text fontSize="lg">{dataset.designation}</Text></li>
-                <li class="list-group-item"><Text fontSize="lg">Focused in: {dataset.speciality}</Text></li>
+                <li class="list-group-item"><Text fontSize="sm">Focused in: {dataset.speciality}</Text></li>
                 <li class="list-group-item"><Text fontSize="lg">&nbsp;</Text></li>
             </ul>
   </div>

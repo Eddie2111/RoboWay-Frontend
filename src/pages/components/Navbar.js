@@ -33,7 +33,7 @@ export default function Navbar() {
             display={{ md: 'none' }}
             onClick={isOpen ? onClose : onOpen}/>
           <HStack spacing={36} alignItems={'center'} style={{zIndex:1000}}>
-            <Box style={{zIndex:1000}}><img src="/logo1.png" alt="Logo" style={{marginLeft:"-10px"}} width="160px" height="120px"/></Box>
+            <Box style={{zIndex:1000}}><a href="/"><img src="/logo1.png" alt="Logo" style={{marginLeft:"-10px"}} width="160px" height="120px"/></a></Box>
             <HStack
               as={'nav'}
               spacing={5}
