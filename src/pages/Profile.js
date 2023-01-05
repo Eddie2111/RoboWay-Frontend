@@ -33,13 +33,14 @@ function Profile() {
         <br/>
     <img src={dataset.cover} className="imgCover" alt="cover"/>
     <img src={dataset.dp} className="imgDP" alt="dp"/>
-    <div className="container">
-    
-  <div class="row row-cols-2 row-cols-md-4">
-    <div class="col">
-        <div class="card">
+
+    </center>
+
+    <div class="profileCol">
+            <div class="profileRowSmall">
+            <div class="card cardStyle">
             <div class="card-body">
-            <Text fontSize='2xl'>{dataset.name}</Text>
+            <Text fontSize='2xl' style={{textAlign:"center"}}>{dataset.name}</Text>
             <Text fontSize="sm">&nbsp;</Text>
             <ul class="list-group list-group-flush" style={{textAlign:"center"}}>
                 <li class="list-group-item">
@@ -72,9 +73,9 @@ function Profile() {
             </ul>
   </div>
         </div>
-    </div>
-    <div class="col">
-    <Box className="card cardModAbout">
+            </div>
+            <div class="profileRowLarge">
+            <Box className="card cardModAbout">
     <Card direction={{ base: 'column', sm: 'row' }}>
         <CardBody>
             <Heading align={"left"} fontSize={"lg"}>About </Heading>
@@ -82,17 +83,14 @@ function Profile() {
         </CardBody>
     </Card>
     </Box>
-    </div>
-  </div>
-
-</div>
+            </div>
+        </div>
     <br/>
+
     
-    
 
 
 
-        </center>
     <Footer/>
     </>
   );

@@ -69,14 +69,14 @@ const sectionDnav = () => {
                 <Card maxW='sm' h="420">
                     <CardBody align={"center"}>
                         <Image
-                        src='Assets/homesafety.jpg'
+                        src='Assets/bionicHand.jpg'
                         alt='Green double couch with wooden legs'
                         borderRadius='lg'
                         />
                         <Stack mt='6' spacing='3'>
-                        <Heading size='md'>Smart Home Safety</Heading>
+                        <Heading size='md'>Smart Bionic Hand</Heading>
                         <Text>
-                        Smart home features refer to technology that allows you to control and automate various aspects of your home using your smartphone or other device.
+                        Our founding team member Ratul Hasan has designed and created bionic hand, that will help disbaled people to do their daily tasks.
                         </Text>
                         </Stack>
                     </CardBody>

@@ -29,6 +29,12 @@ const sectionCnav = () => {
             image:"https://res.cloudinary.com/homeeventtest/image/upload/v1672268860/Profiles/Shrantoo_zbfbnj.png",
             designation:"Chief Strategy Officer",
             links: "61ea4743-57e3-4047-9416-dded311ec471"
+        },
+        ratulHassan:{
+            name: "Ratul Hassan",
+            image: "https://res.cloudinary.com/homeeventtest/image/upload/v1672901295/Profiles/ratul_dexybd.webp",
+            designation:"Head of Embeded Systems",
+            links: "d767d1c6-8981-2163-a643-f6c631a5b5e4"
         }
     }
     return (
@@ -51,7 +57,7 @@ const sectionCnav = () => {
             </motion.div>
 
 
-            <SimpleGrid columns={[1, null, 4]} spacingY='280px' paddingBottom={"270px"}>
+            <SimpleGrid columns={[1, null, 3]} spacingY='280px' paddingBottom={"270px"}>
                 
                 <GridItem w='120' h='60' align={"center"}> 
                 <motion.div 
@@ -95,6 +101,8 @@ const sectionCnav = () => {
                     />
                 </motion.div>
                 </GridItem>
+            </SimpleGrid>
+            <SimpleGrid columns={[1, null, 2]} spacingY='280px' paddingBottom={"270px"}>
                 <GridItem w='120' h='60' align={"center"}> 
                 <motion.div 
                     initial={{ opacity: 0, scale: 0.5, y: 100 }}
@@ -106,6 +114,20 @@ const sectionCnav = () => {
                         designation={founders.soumikShranto.designation}
                         altText = {founders.soumikShranto.name}
                         links = {founders.soumikShranto.links}
+                    />
+                </motion.div>
+                </GridItem>
+                <GridItem w='120' h='60' align={"center"}> 
+                <motion.div 
+                    initial={{ opacity: 0, scale: 0.5, y: 100 }}
+                    whileInView={{ opacity: 1, scale: 1, y: 0 }}
+                    transition={{ duration: 0.8 }}>
+                    <IntroCard 
+                        image={founders.ratulHassan.image}
+                        name={founders.ratulHassan.name}
+                        designation={founders.ratulHassan.designation}
+                        altText = {founders.ratulHassan.name}
+                        links = {founders.ratulHassan.links}
                     />
                 </motion.div>
                 </GridItem>

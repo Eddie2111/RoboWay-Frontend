@@ -40,7 +40,7 @@ const SectionAnav = ()=>{
   </CardFooter>
   <br/><br/>
 
-  <Text><a className="btn btn-primary button1" width={"24rem"} href="/contract">
+  <Text><a className="btn btn-primary button1" width={"24rem"} href="/contact">
     <Text className="mainstreamText"> Have a project? Let's Discuss! </Text>
     </a></Text>
   

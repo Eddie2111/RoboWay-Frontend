@@ -1,5 +1,5 @@
 .card{
-    border-radius: 50px;
+    border-radius: 15px !important;
     padding:5px;
     box-shadow: 0px 11px 16px -10px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 11px 16px -10px rgba(0,0,0,0.75);
@@ -10,10 +10,12 @@
     max-height: 70%;
 }
 .cardModAbout{
-    width:53vw;
+    width:50vw;
 }
-.mainstream{
-
+.cardStyle{
+    width:80% !important;
+    height:20vw !important;
+    margin:auto;
 }
 .mainstreamText{
     font-size: 22px;
@@ -241,4 +243,36 @@
 }
 .footerImage{
     width:100vw;
+}
+.profileCol{
+    margin-left:15%;
+    display: flex;
+    flex-direction: row;
+}
+.profileRow{
+}
+.profileRowLarge{
+    width: 50vw;
+}
+.profileRowSmall{
+    width: 20vw;
+}
+@media screen and (max-width: 700px) {
+    .profileCol{
+        margin-left:12%;
+        flex-direction: column;
+    }
+    .profileRowLarge{
+        width: 80vw;
+        margin-left: -8px;
+    }
+    .profileRowSmall{
+        width: 80vw;
+        margin-left: -8px;
+    }
+    .cardStyle{
+        height:40vh !important;
+        width:77vw !important;
+        margin-left:-1px;
+    }
 }
