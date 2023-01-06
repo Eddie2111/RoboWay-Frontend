@@ -24,7 +24,7 @@ export default function Navbar() {
     
   return (
     <>
-      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={8} borderRadius={10} style={{zIndex:1000}}>
+      <Box bg={useColorModeValue('#500494', '#500494')} px={8} style={{zIndex:1000,boxShadow:"5px 5px 8px #888888"}}>
         <Flex h={24} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
@@ -33,12 +33,13 @@ export default function Navbar() {
             display={{ md: 'none' }}
             onClick={isOpen ? onClose : onOpen}/>
           <HStack spacing={36} alignItems={'center'} style={{zIndex:1000}}>
-            <Box style={{zIndex:1000}}><a href="/"><img src="/logo1.png" alt="Logo" style={{marginLeft:"-10px"}} width="160px" height="120px"/></a></Box>
+            <Box style={{zIndex:1000}}><a href="/"><img src="/logo2.png" alt="Logo" style={{marginLeft:"-10px"}} width="160px" height="120px"/></a></Box>
             <HStack
               as={'nav'}
               spacing={5}
               display={{ base: 'none', md: 'flex' }}
               style={{zIndex:1000}}
+              color="white"
               >
               
                 <a href="/"> <NavLink key="Home">Home</NavLink></a>
@@ -52,9 +53,9 @@ export default function Navbar() {
                 <div class="dropdown-content">
                     <motion.div >
                     <ul>
-                <li className="productLinks"><a href="/product?id=safemate" align={"center"}>SafeMet 1.0</a><br/></li>
-                <li className="productLinks"><a href="/product?id=shield52">Shield 52</a><br/></li>
-                <li className="productLinks"><a href="/product?id=shield71">Shield 71</a><br/></li>
+                <li className="productLinks"><a style={{color:"black"}} href="/product?id=safemate" align={"center"}>SafeMet 1.0</a><br/></li>
+                <li className="productLinks"><a style={{color:"black"}} href="/product?id=shield52">Shield 52</a><br/></li>
+                <li className="productLinks"><a style={{color:"black"}} href="/product?id=shield71">Shield 71</a><br/></li>
                     </ul>
                     </motion.div>
                 </div>
@@ -78,7 +79,7 @@ export default function Navbar() {
                 <Avatar
                   size={'sm'}
                   src={
-                    'https://www.kindpng.com/picc/m/105-1055656_account-user-profile-avatar-avatar-user-profile-icon.png'
+                    'Assets/avatar.png'
                   }
                 />
               </MenuButton>

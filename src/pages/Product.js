@@ -1,16 +1,16 @@
-import { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import SEO from './components/SEO';
 import Navbar from './components/Navbar';
 import axios from 'axios';
-import { useEffect } from 'react';
-import { useSearchParams } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
-import { Box, Heading } from '@chakra-ui/react';
-import React from "react";
-import { Card, CardBody, CardFooter,Text } from '@chakra-ui/react';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import {motion} from 'framer-motion';
 import { Backend } from './components/backend/api';
 import Footer from './components/Footer';
+import { 
+    Card, CardBody, 
+    CardFooter,Text,
+    Box, Heading
+             } from '@chakra-ui/react';
 
 function Product() {
     const [searchParams] = useSearchParams();
@@ -49,7 +49,15 @@ function Product() {
             </Text>
         </Box>
 
-        <img className="productImg" src={dataset.img} alt=""/>
+        <div class="productContainer">
+            <div class="productPreview">
+                <img src={dataset.gui} alt={dataset.gui} className="imgShort" />
+            </div>
+            <div class="productPreview">
+                <img src={dataset.img} alt={dataset.gui} className="imgShort" />
+            </div>
+        </div>
+
         <div className="container">
             <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
@@ -61,16 +69,11 @@ function Product() {
                     <Text fontSize="2xl">{dataset.description}</Text>
                 </CardBody>
                 <CardFooter>
-                    
+                <Text textAlign={"center"} fontSize="4xl">Features</Text>
                 </CardFooter>
                 </Card>
             </motion.div>
     <table className="table table1">
-    <thead>
-        <tr>
-        <th className="thead" scope="col">Features</th>
-        </tr>
-    </thead>
     <tbody>
     { features.map((item) => {
             return (

@@ -8,25 +8,25 @@ const sectionCnav = () => {
     const founders = {
         sihabShahriar: {
             name: "Sihab Shahriar",
-            image: "https://res.cloudinary.com/homeeventtest/image/upload/v1672268853/Profiles/sihab_bhai_q4ifyx.png",
+            image: "https://res.cloudinary.com/homeeventtest/image/upload/v1672901395/Profiles/sihab_bhai_ndukq2.webp",
             designation:"Chief Technical Officer",
             links: "5fbc5333-0143-4cb6-a231-fff929ec2627"
         },
         arifinRafi: {
             name: "Arifin Rafi",
-            image:"https://res.cloudinary.com/homeeventtest/image/upload/v1672268852/Profiles/rafi_bhai_mvkk8g.png",
+            image:"https://res.cloudinary.com/homeeventtest/image/upload/v1672901567/Profiles/rafi_bhai_kdioxg.webp",
             designation:"Chief Executive Officer",
             links: "c76771c6-2162-4844-a643-f5c63175b5e4"
         },
         asmTareq: {
             name: "Tareq Mahmood",
-            image:"https://res.cloudinary.com/homeeventtest/image/upload/v1672268852/Profiles/tareq_bhai_pubg0y.png",
+            image:"https://res.cloudinary.com/homeeventtest/image/upload/v1672901567/Profiles/tareq_bhai_k0yhwo.webp",
             designation:"Chief Information Officer",
             links: "66d09463-db28-4a26-b492-8f436dea37e9"
         },
         soumikShranto:{
             name: "Soumik Shranto",
-            image:"https://res.cloudinary.com/homeeventtest/image/upload/v1672268860/Profiles/Shrantoo_zbfbnj.png",
+            image:"https://res.cloudinary.com/homeeventtest/image/upload/v1672901567/Profiles/Shrantoo_v5xgpf.webp",
             designation:"Chief Strategy Officer",
             links: "61ea4743-57e3-4047-9416-dded311ec471"
         },
