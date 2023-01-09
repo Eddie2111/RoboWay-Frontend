@@ -10,6 +10,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
     import Service from './pages/Service';
     import About from './pages/About';
     import Blogs from './pages/Blogs';
+    import Contact from "./pages/Contact"
     import Contract from './pages/Contract';
     import Signup from './pages/Signup';
     import Product from './pages/Product';
@@ -34,6 +35,7 @@ root.render(
             <Route path="/About" element={<About />}/> 
             <Route path="/Signup" element={<Signup />}/> 
             <Route path="/Blogs" element={<Blogs />}/>  
+            <Route path="/Contact" element={<Contact />}/> 
             <Route path="/Contract" element={<Contract />}/> 
             <Route path="/Product" element={<Product />}/> 
             <Route path="/Products" element={<Products />}/> 

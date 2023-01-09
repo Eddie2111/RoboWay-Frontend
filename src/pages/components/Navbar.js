@@ -1,7 +1,8 @@
-import { Box,Flex, Avatar,Grid, GridItem,
+import { 
+        Box,Flex, Avatar,Grid, GridItem,
         HStack, Link, IconButton, Button, Menu, MenuButton, MenuList,
         MenuItem, MenuDivider, useDisclosure, useColorModeValue, Stack
-            } from '@chakra-ui/react';
+    } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, ChevronDownIcon } from '@chakra-ui/icons';
 import {motion} from 'framer-motion';
 
@@ -84,10 +85,10 @@ export default function Navbar() {
                 />
               </MenuButton>
               <MenuList style={{zIndex:1000}}>
-                <MenuItem>Link 1</MenuItem>
-                <MenuItem>Link 2</MenuItem>
+                <MenuItem>Login</MenuItem>
+                <MenuItem>Sign up</MenuItem>
                 <MenuDivider />
-                <MenuItem>Link 3</MenuItem>
+                <MenuItem>Let's Contract</MenuItem>
               </MenuList>
             </Menu>
           </Flex>
@@ -95,7 +96,7 @@ export default function Navbar() {
 
         {isOpen ? (
           <Box pb={4} display={{ md: 'none' }}>
-            <Stack as={'nav'} spacing={4}>
+            <Stack as={'nav'} spacing={4} style={{color:'white'}}>
                 {Object.keys(Links).map((key,index,value) => (
                 <a href={key}> <NavLink key={value}>{key}</NavLink></a>
                 ))}

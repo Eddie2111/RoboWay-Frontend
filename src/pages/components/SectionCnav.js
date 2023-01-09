@@ -32,7 +32,7 @@ const sectionCnav = () => {
         },
         ratulHassan:{
             name: "Ratul Hassan",
-            image: "https://res.cloudinary.com/homeeventtest/image/upload/v1672901295/Profiles/ratul_dexybd.webp",
+            image: "https://res.cloudinary.com/homeeventtest/image/upload/v1673289709/Profiles/ratul_hmtzwx.webp",
             designation:"Head of Embeded Systems",
             links: "d767d1c6-8981-2163-a643-f6c631a5b5e4"
         }

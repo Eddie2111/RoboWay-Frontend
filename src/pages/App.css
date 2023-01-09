@@ -279,8 +279,12 @@
     display: flex;
     flex-direction: row;
 }
-.profileRow{
+.contactSubmit{
+    height:8vh;
+    width:280px;
+    margin:auto;
 }
+
 .profileRowLarge{
     width: 50vw;
 }
