@@ -5,13 +5,13 @@ import {
 import { FaFacebook, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 const ContactForm = ()=>{
     const contactNumber = "tel:+8801703721883";
-    const emailAddress = "roboway@tech.com";
+    const emailAddress = "teamroboway@gmail.com";
     return(
 <>
             <ContactContainer>
                 <ContactDetail>
                     <p style={{color:"black",fontSize:"21px",marginBottom:"20px"}}>email us:</p>
-                    <a href="mailto:roboway@tech.com?subject=Inquiry Contact&cc=tarek42223@gmail.com" style={{color:"blue",fontSize:"25px"}}>{emailAddress}</a>
+                    <a href="mailto:teamroboway@gmail.com?subject=Inquiry Contact&cc=tarek42223@gmail.com" style={{color:"blue",fontSize:"25px"}}>{emailAddress}</a>
                 </ContactDetail>
                 <ContactDetail>
                     <p style={{fontSize:"21px",marginBottom:"7px"}}>Get Connected:</p>
