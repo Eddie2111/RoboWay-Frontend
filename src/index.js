@@ -31,10 +31,8 @@ root.render(
         <Routes>
             <Route path="/" element={<Index />}/> 
             <Route path="*" element={<Index />}/> 
-            <Route path="/Service" element={<Service />}/> 
             <Route path="/About" element={<About />}/> 
             <Route path="/Signup" element={<Signup />}/> 
-            <Route path="/Blogs" element={<Blogs />}/>  
             <Route path="/Contact" element={<Contact />}/> 
             <Route path="/Contract" element={<Contract />}/> 
             <Route path="/Product" element={<Product />}/> 
