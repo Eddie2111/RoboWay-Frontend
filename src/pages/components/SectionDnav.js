@@ -70,11 +70,11 @@ const sectionDnav = () => {
                     <CardBody align={"center"}>
                         <Image
                         src='Assets/bionicHand.jpg'
-                        alt='Green double couch with wooden legs'
+                        alt='4IR project'
                         borderRadius='lg'
                         />
                         <Stack mt='6' spacing='3'>
-                        <Heading size='md'>Smart Bionic Hand</Heading>
+                        <Heading size='md'>Team Onneshok 4IR Projects</Heading>
                         <Text>
                         Our founding team member Ratul Hasan has designed and created bionic hand, that will help disbaled people to do their daily tasks.
                         </Text>

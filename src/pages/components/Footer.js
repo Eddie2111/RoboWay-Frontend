@@ -2,11 +2,15 @@ import { Icon } from "@chakra-ui/react";
 import {BsFacebook, BsTwitter, BsInstagram, BsLinkedin, BsGoogle} from "react-icons/bs";
 
 const Footer = ()=>{
-    const backedUp = {backgroundColor:"rgba(0, 0, 0, 0.05)"};
-    const twoBackedUp = {width: "60px", backgroundColor: "#7c4dff", height: "2px"};
-    const threeBackedUp = {width: "60px", backgroundColor: "#7c4dff", height: "2px"};
-    const fourBackedUp = {width: "60px", backgroundColor: "#7c4dff" ,height: "2px"};
-    const fiveBackedUp = {width: "60px", backgroundColor: "#7c4dff", height: "2px"};
+    const contactNumber1 = "+880 1611 2405 24";
+    const contactNumber2 = "+880 1703 7218 83";
+    // style informations 
+        const backedUp = {backgroundColor:"rgba(0, 0, 0, 0.05)"};
+        const twoBackedUp = {width: "60px", backgroundColor: "#7c4dff", height: "2px"};
+        const threeBackedUp = {width: "60px", backgroundColor: "#7c4dff", height: "2px"};
+        const fourBackedUp = {width: "60px", backgroundColor: "#7c4dff" ,height: "2px"};
+        const fiveBackedUp = {width: "60px", backgroundColor: "#7c4dff", height: "2px"};
+    // style informations 
  return(
       <footer
               className="text-center text-lg-start text-white"
@@ -60,7 +64,7 @@ const Footer = ()=>{
                     style={fiveBackedUp}
                     />
                 <p>
-                  Our work is to create safety and automation through robotics. If you have any concern, feel free to contact us.
+                Providing robotics and Internet of Things (IoT) solutions to customers and businesses in order to enable them to introduce automation into their industries and daily lives
                 </p>
               </div>
 
@@ -121,8 +125,8 @@ const Footer = ()=>{
                     />
                 <p><i className="fas fa-home mr-3"></i> Mohakhali, Dhaka-1212</p>
                 <p><i className="fas fa-envelope mr-3"></i> Roboway@Tech.com</p>
-                <p><i className="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                <p><i className="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                <p><i className="fas fa-phone mr-3"></i> {contactNumber1}</p>
+                <p><i className="fas fa-print mr-3"></i> {contactNumber2}</p>
               </div>
             </div>
           </div>
@@ -131,7 +135,7 @@ const Footer = ()=>{
              className="text-center p-3"
              style={backedUp}
              >
-          <a href="/"> <img src="Assets/footer.png" className="footerImage" alt="footer logo"/></a>
+          <a href="/"> <img src="https://raw.githubusercontent.com/Eddie2111/Documentries/main/footer.png" className="footerImage" alt="footer logo"/></a>
         </div>
     
       </footer>

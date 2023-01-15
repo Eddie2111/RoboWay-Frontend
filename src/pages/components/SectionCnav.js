@@ -55,25 +55,8 @@ const sectionCnav = () => {
             </CardFooter>
             </Card>
             </motion.div>
-
-
-            <SimpleGrid columns={[1, null, 3]} spacingY='280px' paddingBottom={"270px"}>
-                
-                <GridItem w='120' h='60' align={"center"}> 
-                <motion.div 
-                    initial={{ opacity: 0, scale: 0.5, y: 100 }}
-                    whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                    transition={{ duration: 0.8 }}>
-                    <IntroCard 
-                        image={founders.sihabShahriar.image}
-                        name={founders.sihabShahriar.name}
-                        designation={founders.sihabShahriar.designation}
-                        altText= {founders.sihabShahriar.name}
-                        links = {founders.sihabShahriar.links}
-                    />
-                </motion.div>
-                </GridItem>
-                <GridItem w='120' h='60' align={"center"}> 
+            <SimpleGrid columns={[1, null, 1]} spacingY='280px' paddingBottom={"270px"}>
+            <GridItem w='120' h='60' align={"center"}> 
                 <motion.div 
                     initial={{ opacity: 0, scale: 0.5, y: 100 }}
                     whileInView={{ opacity: 1, scale: 1, y: 0 }}
@@ -87,6 +70,24 @@ const sectionCnav = () => {
                     />
                 </motion.div>
                 </GridItem>
+            </SimpleGrid>
+            <SimpleGrid columns={[1, null, 2]} spacingY='280px' paddingBottom={"270px"}>
+                
+            <GridItem w='120' h='60' align={"center"}> 
+                <motion.div 
+                    initial={{ opacity: 0, scale: 0.5, y: 100 }}
+                    whileInView={{ opacity: 1, scale: 1, y: 0 }}
+                    transition={{ duration: 0.8 }}>
+                    <IntroCard 
+                        image={founders.soumikShranto.image}
+                        name={founders.soumikShranto.name}
+                        designation={founders.soumikShranto.designation}
+                        altText = {founders.soumikShranto.name}
+                        links = {founders.soumikShranto.links}
+                    />
+                </motion.div>
+                </GridItem>
+
                 <GridItem w='120' h='60' align={"center"}> 
                 <motion.div 
                     initial={{ opacity: 0, scale: 0.5, y: 100 }}
@@ -103,17 +104,17 @@ const sectionCnav = () => {
                 </GridItem>
             </SimpleGrid>
             <SimpleGrid columns={[1, null, 2]} spacingY='280px' paddingBottom={"270px"}>
-                <GridItem w='120' h='60' align={"center"}> 
+            <GridItem w='120' h='60' align={"center"}> 
                 <motion.div 
                     initial={{ opacity: 0, scale: 0.5, y: 100 }}
                     whileInView={{ opacity: 1, scale: 1, y: 0 }}
                     transition={{ duration: 0.8 }}>
                     <IntroCard 
-                        image={founders.soumikShranto.image}
-                        name={founders.soumikShranto.name}
-                        designation={founders.soumikShranto.designation}
-                        altText = {founders.soumikShranto.name}
-                        links = {founders.soumikShranto.links}
+                        image={founders.sihabShahriar.image}
+                        name={founders.sihabShahriar.name}
+                        designation={founders.sihabShahriar.designation}
+                        altText= {founders.sihabShahriar.name}
+                        links = {founders.sihabShahriar.links}
                     />
                 </motion.div>
                 </GridItem>

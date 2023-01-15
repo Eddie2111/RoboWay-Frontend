@@ -28,13 +28,13 @@ const SectionAnav = ()=>{
   <CardFooter>
         <SimpleGrid columns={[1, null, 3]} spacing='120px'>
         <Box height='60px'>
-            <Heading size='md' textAlign={"center"} >Provide Personal and Industrial Safety Solutions.</Heading>
+            <Heading size='md' textAlign={"center"} >Provide Personal Safety and Embedded Devices</Heading>
         </Box>
         <Box height='60px'>
-            <Heading size='md' textAlign={"center"}>Provide Academics and Corporate Automation.</Heading>
+            <Heading size='md' textAlign={"center"}>Provide Industrial Safety and Embedded Device</Heading>
         </Box>
         <Box height='60px'>
-            <Heading size='md' textAlign={"center"}>Professional Software and Hardware Based Projects.</Heading>
+            <Heading size='md' textAlign={"center"}>Professional Software and Hardware Based Projects</Heading>
         </Box>
         </SimpleGrid>
   </CardFooter>
@@ -67,8 +67,8 @@ const SectionAnav = ()=>{
   >
   <GridItem w='100%' h='10' align={"center"}>
   <HeadCard 
-    heading="Requirement Analysis" 
-    description="Safety and Client Requirement Analysis is the first step in the design process. We analyze the client's requirements and the safety of the design."
+    heading="Way Finding" 
+    description="Safety and Consumer Requirement Analysis is the first step in the design process. We analyze the consumer's requirements and the safety of the design."
     icon = {GiArchiveResearch}
   />
 
@@ -82,8 +82,8 @@ const SectionAnav = ()=>{
   >
   <GridItem w='100%' h='10' align={"center"}>
   <HeadCard 
-    heading="Design and Development" 
-    description="Design and Development is the second step in the design process. We design and develop the design to meet the client's requirements and safety."
+    heading="Way Development" 
+    description="Design and Development is the second step in the design process. We design and develop the design to meet the consumer's requirements and safety."
     icon = {MdEngineering}
   />
 
@@ -97,8 +97,8 @@ const SectionAnav = ()=>{
   >
   <GridItem w='100%' h='10' align={"center"}>
   <HeadCard 
-    heading="Sales and Marketing"
-    description="Sales and Marketing is the third step in the design process. We sell and market the design to the client as well as analyze current market value with accurate calculation."
+    heading="Providing Ways"
+    description="Sales and Marketing is the third step in the process. We sell and market the devices to the consumer and businesses as well as current market value with accurate calculation"
     icon = {GiSellCard}
   />
   </GridItem>

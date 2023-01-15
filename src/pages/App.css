@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Cano';
+    src: url('https://raw.githubusercontent.com/Eddie2111/Documentries/main/Cano.woff') format('truetype');
+  }
+*{
+    font-family: 'Lexend', sans-serif;
+}
 .card{
     border-radius: 15px !important;
     padding:5px;
@@ -102,6 +109,7 @@
   }
 
   .productLinks{
+    font-family: 'Cano', sans-serif;
     border-bottom:1px solid rgb(154, 154, 154);
     transition: 0.3s ease-in-out;
     color:"black";
@@ -294,7 +302,7 @@
 @media screen and (max-width: 700px) {
     .profileCol{
         margin-left:12%;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .profileRowLarge{
         width: 80vw;
@@ -303,6 +311,7 @@
     .profileRowSmall{
         width: 80vw;
         margin-left: -8px;
+        margin-top: 25px;
     }
     .cardStyle{
         height:40vh !important;
