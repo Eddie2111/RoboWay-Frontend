@@ -10,7 +10,7 @@ export const IntroCard = ({image, name, designation, altText, links})=>{
             src={image}
             alt={altText}
             borderRadius='30px'
-            height={"40%"}
+            height={"180px"}
         />
         <Stack mt='7' spacing='4'>
         <Heading size='md'>{name}</Heading>

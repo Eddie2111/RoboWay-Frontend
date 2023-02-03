@@ -32,13 +32,13 @@ function Index() {
          <SwiperSlide><img className="img" src={img3Link} alt="" /></SwiperSlide>
     </Swiper>
 
-    <SectionAnav/>
+    <SectionAnav/> {/* what we do */}
     
-    <SectionBnav/>
+    <SectionBnav/> {/* how we work & stat*/}
 
-    <SectionCnav/>
+    <SectionCnav/> {/* who are we, team intro */}
 
-    <SectionDnav/>
+    <SectionDnav/> {/* current successful projects */}
 
     <Footer/>
     </>
